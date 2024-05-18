@@ -1,6 +1,11 @@
 # Stock firmware recovery for Quectel EG25-G
 This repo contains all the firmware versions we have found for the Quectel EG25-G Modem.
 
+## WARNING WARNING WARNING:
+- This branch contains firmware from Quectel's 200. branch, and it's what comes in newer revisions
+- This may be incompatible in older modems and might render the IMEI unusable.
+- This build contains Modem Distro's custom bootloader to ease the pain in case you run into issues and need to roll back, but no guarantees are given. You do you
+
 There are two ways of flashing these:
 1. Via fastboot, if the modem is working correctly.
 2. With EDL, if the modem doesn't boot, or if you want to make sure *everything* in the package is installed.
