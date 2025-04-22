@@ -1,4 +1,6 @@
-# Stock firmware recovery for Quectel EG25-G
+### UNTESTED YET
+
+# Stock firmware recovery for Quectel EG25-GC
 This repo contains all the firmware versions we have found for the Quectel EG25-G Modem.
 
 ## WARNING WARNING WARNING:
@@ -31,13 +33,9 @@ It should be noted that if you entered EDL with ADB and qfirehose fails during f
 
 Once in EDL mode, open a terminal and go to the root directory of this repository to execute qfirehose.
 
-If you use an ARM64 distro (most likely), run:
+If you use an X86 distro (most likely), run:
 
-`sudo ./qfirehose -f ./`
-
-If you use an ARMHF distro (confirm with `uname -m`), run:
-
-`sudo ./qfirehose_armhf -f ./`
+`sudo ./qfirehose_amd64 -f ./`
 
 Once it finishes, it will reboot the modem and after about 30 seconds you should be back up and running!
 

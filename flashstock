@@ -11,6 +11,5 @@ fastboot flash:raw boot update/mdm9607-boot.img || exit "Failed to flash main ke
 fastboot flash:raw recovery update/mdm9607-boot.img || exit "Failed to flash recovery kernel"
 fastboot flash system update/mdm9607-sysfs.ubi || exit "Failed to flash the system partition"
 fastboot flash recoveryfs update/mdm9607-recovery.ubi || exit "Failed to flash the recovery partition"
-fastboot flash modem update/NON-HLOS.ubi || exit "Failed to flash ADSP firmware"
 fastboot reboot
 echo "Done!"
