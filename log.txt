@@ -1,0 +1,290 @@
+neko@flare5 ~/tools/eg25-gc/quectel_eg25_recovery $ ./qfirehose_amd64 -f .
+[000.000]: Version: QFirehose_Linux_Android_V1.4.17
+[000.000]: Builded: Apr 22 2025 07:08:52
+[000.000]: Find md5 check file <./md5.txt>
+[000.001]: md5 checking: ./contents.xml pass
+[000.003]: md5 checking: ./update/appsboot.mbn pass
+[000.004]: md5 checking: ./update/ENPRG9x07.mbn pass
+[000.005]: md5 checking: ./update/firehose/partition_complete_p2K_b128K.mbn pass
+[000.005]: md5 checking: ./update/firehose/patch_p2K_b128K.xml pass
+[000.006]: md5 checking: ./update/firehose/prog_nand_firehose_9x07.mbn pass
+[000.006]: md5 checking: ./update/firehose/rawprogram_nand_p2K_b128K_update.xml pass
+[000.023]: md5 checking: ./update/mdm9607-boot.img pass
+[000.040]: md5 checking: ./update/mdm9607-recovery.ubi pass
+[000.227]: md5 checking: ./update/mdm9607-sysfs.ubi pass
+[000.227]: md5 checking: ./update/NPRG9x07.mbn pass
+[000.228]: md5 checking: ./update/partition.mbn pass
+[000.228]: md5 checking: ./update/partition_nand.xml pass
+[000.228]: md5 checking: ./update/rpm.mbn pass
+[000.229]: md5 checking: ./update/sbl1.mbn pass
+[000.231]: md5 checking: ./update/tz.mbn pass
+[000.237]: md5 checking: ./update/usrdata.ubi pass
+[000.237]: Totals checking 17 files md5 value, 0 file fail!
+[000.237]: find 'prog_nand_firehose_9x07.mbn'
+[000.237]: find_firehose_mbn prog_nand_firehose_9x07.mbn
+[000.238]: [1] /sys/bus/usb/devices/1-1 2c7c/125/318
+[000.238]: qusb_read_speed_atime speed: 480, st_atime: 20250422_08:54:20
+[000.238]: P: /dev/bus/usb/001/002 idVendor=2c7c idProduct=0125
+[000.238]: C: /dev/bus/usb/001/002 bNumInterfaces: 8
+[000.238]: I: If#= 0 Alt= 0 #EPs= 2 Cls=ff Sub=ff Prot=ff
+[000.238]: E: Ad=81 Atr=02 MxPS= 512 Ivl=0ms
+[000.238]: E: Ad=01 Atr=02 MxPS= 512 Ivl=0ms
+[000.238]: I: If#= 1 Alt= 0 #EPs= 3 Cls=ff Sub=00 Prot=00
+[000.238]: E: Ad=83 Atr=03 MxPS= 10 Ivl=9ms
+[000.238]: E: Ad=82 Atr=02 MxPS= 512 Ivl=0ms
+[000.238]: E: Ad=02 Atr=02 MxPS= 512 Ivl=0ms
+[000.238]: I: If#= 2 Alt= 0 #EPs= 3 Cls=ff Sub=00 Prot=00
+[000.238]: E: Ad=85 Atr=03 MxPS= 10 Ivl=9ms
+[000.238]: E: Ad=84 Atr=02 MxPS= 512 Ivl=0ms
+[000.238]: E: Ad=03 Atr=02 MxPS= 512 Ivl=0ms
+[000.238]: I: If#= 3 Alt= 0 #EPs= 3 Cls=ff Sub=00 Prot=00
+[000.238]: E: Ad=87 Atr=03 MxPS= 10 Ivl=9ms
+[000.238]: E: Ad=86 Atr=02 MxPS= 512 Ivl=0ms
+[000.238]: E: Ad=04 Atr=02 MxPS= 512 Ivl=0ms
+[000.238]: I: If#= 4 Alt= 0 #EPs= 3 Cls=ff Sub=ff Prot=ff
+[000.238]: I: If#= 5 Alt= 0 #EPs= 0 Cls=01 Sub=01 Prot=00
+[000.238]: I: If#= 6 Alt= 0 #EPs= 0 Cls=01 Sub=02 Prot=00
+[000.238]: I: If#= 6 Alt= 1 #EPs= 1 Cls=01 Sub=02 Prot=00
+[000.238]: I: If#= 7 Alt= 0 #EPs= 0 Cls=01 Sub=02 Prot=00
+[000.238]: I: If#= 7 Alt= 1 #EPs= 1 Cls=01 Sub=02 Prot=00
+[000.238]: tmp=/sys/bus/usb/devices/usb1/../driver, driver=../../../../bus/pci/drivers/xhci_hcd
+[000.238]: usbfs_is_kernel_driver_alive find interface 0 has match the driver option
+[000.240]: usbfs_detach_kernel_driver detach kernel driver success
+[000.242]: old software version: EG25GGCR07A02M1G
+[001.262]: inf[0] ep_in -1/512, errno = 110 (Connection timed out), timeout=1000
+[001.262]: qusb_noblock_read read=0, errno: 110 (Connection timed out)
+[001.262]: qusb_noblock_read cur=0, min_size=1
+[001.262]: switch to 'Emergency download mode'
+[001.301]: inf[0] ep_in -1/512, errno = 71 (Protocol error)
+[001.301]: qusb_noblock_read read=-1, errno: 71 (Protocol error)
+[001.301]: qusb_noblock_read cur=0, min_size=1
+[002.302]: P: /dev/bus/usb/001/003 idVendor=05c6 idProduct=9008
+[002.302]: C: /dev/bus/usb/001/003 bNumInterfaces: 1
+[002.302]: I: If#= 0 Alt= 0 #EPs= 2 Cls=ff Sub=ff Prot=ff
+[002.302]: E: Ad=81 Atr=02 MxPS= 512 Ivl=0ms
+[002.302]: E: Ad=01 Atr=02 MxPS= 512 Ivl=0ms
+[002.302]: tmp=/sys/bus/usb/devices/usb1/../driver, driver=../../../../bus/pci/drivers/xhci_hcd
+[002.302]: <=== Q_SAHARA_ONE
+[002.302]: Q_SAHARA_TWO ===>
+[002.302]: <=== Q_SAHARA_THREE
+[002.302]: 0x0000000d 0x00000000 0x00000034
+[002.302]: <=== Q_SAHARA_THREE
+[002.302]: 0x0000000d 0x00000034 0x00000060
+[002.302]: <=== Q_SAHARA_THREE
+[002.302]: 0x0000000d 0x00001000 0x00001000
+[002.303]: <=== Q_SAHARA_THREE
+[002.303]: 0x0000000d 0x00002000 0x00000988
+[002.303]: <=== Q_SAHARA_THREE
+[002.303]: 0x0000000d 0x00003000 0x00001000
+[002.304]: <=== Q_SAHARA_THREE
+[002.304]: 0x0000000d 0x00004000 0x00001000
+[002.305]: <=== Q_SAHARA_THREE
+[002.305]: 0x0000000d 0x00005000 0x00001000
+[002.305]: <=== Q_SAHARA_THREE
+[002.305]: 0x0000000d 0x00006000 0x00001000
+[002.306]: <=== Q_SAHARA_THREE
+[002.306]: 0x0000000d 0x00007000 0x00001000
+[002.307]: <=== Q_SAHARA_THREE
+[002.307]: 0x0000000d 0x00008000 0x00001000
+[002.307]: <=== Q_SAHARA_THREE
+[002.307]: 0x0000000d 0x00009000 0x00001000
+[002.308]: <=== Q_SAHARA_THREE
+[002.308]: 0x0000000d 0x0000a000 0x00001000
+[002.308]: <=== Q_SAHARA_THREE
+[002.308]: 0x0000000d 0x0000b000 0x00001000
+[002.309]: <=== Q_SAHARA_THREE
+[002.309]: 0x0000000d 0x0000c000 0x00001000
+[002.310]: <=== Q_SAHARA_THREE
+[002.310]: 0x0000000d 0x0000d000 0x00001000
+[002.310]: <=== Q_SAHARA_THREE
+[002.310]: 0x0000000d 0x0000e000 0x00001000
+[002.311]: <=== Q_SAHARA_THREE
+[002.311]: 0x0000000d 0x0000f000 0x00001000
+[002.312]: <=== Q_SAHARA_THREE
+[002.312]: 0x0000000d 0x00010000 0x00001000
+[002.312]: <=== Q_SAHARA_THREE
+[002.312]: 0x0000000d 0x00011000 0x00001000
+[002.313]: <=== Q_SAHARA_THREE
+[002.313]: 0x0000000d 0x00012000 0x00001000
+[002.313]: <=== Q_SAHARA_THREE
+[002.313]: 0x0000000d 0x00013000 0x00001000
+[002.314]: <=== Q_SAHARA_THREE
+[002.314]: 0x0000000d 0x00014000 0x00001000
+[002.315]: <=== Q_SAHARA_THREE
+[002.315]: 0x0000000d 0x00015000 0x00001000
+[002.315]: <=== Q_SAHARA_THREE
+[002.315]: 0x0000000d 0x00016000 0x00001000
+[002.316]: <=== Q_SAHARA_THREE
+[002.316]: 0x0000000d 0x00017000 0x00001000
+[002.317]: <=== Q_SAHARA_THREE
+[002.317]: 0x0000000d 0x00018000 0x00001000
+[002.317]: <=== Q_SAHARA_THREE
+[002.317]: 0x0000000d 0x00019000 0x00001000
+[002.318]: <=== Q_SAHARA_THREE
+[002.318]: 0x0000000d 0x0001a000 0x00001000
+[002.318]: <=== Q_SAHARA_THREE
+[002.318]: 0x0000000d 0x0001b000 0x00001000
+[002.319]: <=== Q_SAHARA_THREE
+[002.319]: 0x0000000d 0x0001c000 0x00001000
+[002.320]: <=== Q_SAHARA_THREE
+[002.320]: 0x0000000d 0x0001d000 0x00001000
+[002.320]: <=== Q_SAHARA_THREE
+[002.320]: 0x0000000d 0x0001e000 0x00001000
+[002.321]: <=== Q_SAHARA_THREE
+[002.321]: 0x0000000d 0x0001f000 0x00001000
+[002.322]: <=== Q_SAHARA_THREE
+[002.322]: 0x0000000d 0x00020000 0x00000658
+[002.348]: <=== Q_SAHARA_FOUR
+[002.348]: q_image_id = 13, q_status = 0
+[002.348]: Q_SAHARA_FIVE ===>
+[002.348]: <=== Q_SAHARA_SIX
+[002.348]: q_image_tx_status = 0
+[002.348]: Sahara protocol completed
+[002.348]: find 'rawprogram_nand_p2K_b128K_update.xml'
+[002.349]: find 'patch_p2K_b128K.xml'
+[002.349]: fh_xml_find_value: no key sparse in <program PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" filename="..\sbl1.mbn" num_partition_sectors="640" physical_partition_number="0" start_sector="0"/>
+
+[002.349]: fh_xml_find_value: no key sparse in <program PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" filename="partition_complete_p2K_b128K.mbn" num_partition_sectors="640" physical_partition_number="0" start_sector="640"/>
+
+[002.349]: fh_xml_find_value: no key sparse in <program PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" filename="..\tz.mbn" num_partition_sectors="768" physical_partition_number="0" start_sector="11904"/>
+
+[002.349]: fh_xml_find_value: no key sparse in <program PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" filename="..\appsboot.mbn" num_partition_sectors="640" physical_partition_number="0" start_sector="13120"/>
+
+[002.349]: fh_xml_find_value: no key sparse in <program PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" filename="..\mdm9607-boot.img" num_partition_sectors="2752" physical_partition_number="0" start_sector="13760"/>
+
+[002.349]: fh_xml_find_value: no key sparse in <program PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" filename="..\mdm9607-recovery.ubi" num_partition_sectors="2688" physical_partition_number="0" start_sector="16768"/>
+
+[002.349]: fh_xml_find_value: no key sparse in <program PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" filename="..\usrdata.ubi" num_partition_sectors="10752" physical_partition_number="0" start_sector="19456"/>
+
+[002.349]: fh_xml_find_value: no key sparse in <program PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" filename="..\mdm9607-sysfs.ubi" num_partition_sectors="35072" physical_partition_number="0" start_sector="30464"/>
+
+[002.349]: fh_xml_find_value: no key sparse in <program PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" filename="..\rpm.mbn" num_partition_sectors="320" physical_partition_number="0" start_sector="12672"/>
+
+[003.477]: <log value="Supported Functions: program configure power read getstorageinfo erase nop "/>
+[004.479]: <configure MemoryName="nand" Verbose="0" AlwaysValidate="0" MaxDigestTableSizeInBytes="2048" MaxPayloadSizeToTargetInBytes="8192"  ZlpAwareHost="1" SkipStorageInit="0" />
+[004.479]: <response value="ACK" MemoryName="NAND" MaxPayloadSizeFromTargetInBytes="2048" MaxPayloadSizeToTargetInBytes="8192" MaxPayloadSizeToTargetInBytesSupported="16384" TargetName="9x07" />
+[004.480]: <erase PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" num_partition_sectors="640" physical_partition_number="0" start_sector="0"/>
+[004.481]: <log value="start_sector = 0 and num_partition_sectors =0x280)"/>
+[004.506]: <response value="ACK" />
+[004.507]: <erase PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" num_partition_sectors="320" physical_partition_number="0" start_sector="12672"/>
+[004.507]: <log value="start_sector = 12672 and num_partition_sectors =0x140)"/>
+[004.520]: <response value="ACK" />
+[004.521]: <erase PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" num_partition_sectors="640" physical_partition_number="0" start_sector="13120"/>
+[004.521]: <log value="start_sector = 13120 and num_partition_sectors =0x280)"/>
+[004.549]: <response value="ACK" />
+[004.549]: <erase PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" num_partition_sectors="2752" physical_partition_number="0" start_sector="13760"/>
+[004.549]: <log value="start_sector = 13760 and num_partition_sectors =0xac0)"/>
+[004.665]: <response value="ACK" />
+[004.665]: <erase PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" num_partition_sectors="2688" physical_partition_number="0" start_sector="16768"/>
+[004.665]: <log value="start_sector = 16768 and num_partition_sectors =0xa80)"/>
+[004.779]: <response value="ACK" />
+[004.779]: <erase PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" num_partition_sectors="10752" physical_partition_number="0" start_sector="19456"/>
+[004.780]: <log value="start_sector = 19456 and num_partition_sectors =0x2a00)"/>
+[005.219]: <response value="ACK" />
+[005.219]: <erase PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" num_partition_sectors="35072" physical_partition_number="0" start_sector="30464"/>
+[005.220]: <log value="start_sector = 30464 and num_partition_sectors =0x8900)"/>
+[006.679]: <response value="ACK" />
+[006.679]: <erase PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" num_partition_sectors="768" physical_partition_number="0" start_sector="11904"/>
+[006.680]: <log value="start_sector = 11904 and num_partition_sectors =0x300)"/>
+[006.712]: <response value="ACK" />
+[006.713]: <erase PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" num_partition_sectors="640" physical_partition_number="0" start_sector="640"/>
+[006.713]: <log value="start_sector = 640 and num_partition_sectors =0x280)"/>
+[006.739]: <response value="ACK" />
+[006.739]: <program PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" filename="partition_complete_p2K_b128K.mbn" num_partition_sectors="4" physical_partition_number="0" start_sector="640"/>
+[006.740]: <log value="INSIDE HANDLE PROGRAM"/>
+[006.740]: <log value="start_sector 640, last_sector_address 644"/>
+[006.740]: <response value="ACK" rawmode="true" />
+[006.740]: send partition_complete_p2K_b128K.mbn, filesize=8192
+.
+[006.741]: upgrade progress 0% 8192/69706580
+[006.741]: send finished
+[006.742]: <log value="Finished sector address 640"/>
+[006.742]: <response value="ACK" rawmode="false" />
+[006.742]: <program PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" filename="..\tz.mbn" num_partition_sectors="258" physical_partition_number="0" start_sector="11904"/>
+[006.743]: <log value="INSIDE HANDLE PROGRAM"/>
+[006.743]: <log value="start_sector 11904, last_sector_address 12162"/>
+[006.743]: <response value="ACK" rawmode="true" />
+[006.743]: send ../tz.mbn, filesize=526844
+.
+[006.849]: upgrade progress 0% 535036/69706580
+[006.849]: send finished
+[006.850]: <log value="Finished sector address 11904"/>
+[006.850]: <response value="ACK" rawmode="false" />
+[006.850]: <program PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" filename="..\appsboot.mbn" num_partition_sectors="234" physical_partition_number="0" start_sector="13120"/>
+[006.850]: <log value="INSIDE HANDLE PROGRAM"/>
+[006.850]: <log value="start_sector 13120, last_sector_address 13354"/>
+[006.850]: <response value="ACK" rawmode="true" />
+[006.851]: send ../appsboot.mbn, filesize=478388
+.
+[006.946]: upgrade progress 1% 1013424/69706580
+[006.946]: send finished
+[006.947]: <log value="Finished sector address 13120"/>
+[006.947]: <response value="ACK" rawmode="false" />
+[006.947]: <program PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" filename="..\mdm9607-boot.img" num_partition_sectors="1804" physical_partition_number="0" start_sector="13760"/>
+[006.948]: <log value="INSIDE HANDLE PROGRAM"/>
+[006.948]: <log value="start_sector 13760, last_sector_address 15564"/>
+[006.948]: <response value="ACK" rawmode="true" />
+[006.948]: send ../mdm9607-boot.img, filesize=3694592
+....
+[007.688]: upgrade progress 6% 4708016/69706580
+[007.688]: send finished
+[007.690]: <log value="Finished sector address 13760"/>
+[007.690]: <response value="ACK" rawmode="false" />
+[007.690]: <program PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" filename="..\mdm9607-recovery.ubi" num_partition_sectors="1920" physical_partition_number="0" start_sector="16768"/>
+[007.690]: <log value="INSIDE HANDLE PROGRAM"/>
+[007.691]: <log value="start_sector 16768, last_sector_address 18688"/>
+[007.691]: <response value="ACK" rawmode="true" />
+[007.691]: send ../mdm9607-recovery.ubi, filesize=3932160
+....
+[008.473]: upgrade progress 12% 8640176/69706580
+[008.473]: send finished
+[008.474]: <log value="Finished sector address 16768"/>
+[008.474]: <response value="ACK" rawmode="false" />
+[008.474]: <program PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" filename="..\usrdata.ubi" num_partition_sectors="1024" physical_partition_number="0" start_sector="19456"/>
+[008.475]: <log value="INSIDE HANDLE PROGRAM"/>
+[008.475]: <log value="start_sector 19456, last_sector_address 20480"/>
+[008.475]: <response value="ACK" rawmode="true" />
+[008.475]: send ../usrdata.ubi, filesize=2097152
+..
+[008.858]: upgrade progress 15% 10737328/69706580
+[008.858]: send finished
+[008.860]: <log value="Finished sector address 19456"/>
+[008.860]: <response value="ACK" rawmode="false" />
+[008.860]: <program PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" filename="..\mdm9607-sysfs.ubi" num_partition_sectors="28608" physical_partition_number="0" start_sector="30464"/>
+[008.860]: <log value="INSIDE HANDLE PROGRAM"/>
+[008.860]: <log value="start_sector 30464, last_sector_address 59072"/>
+[008.861]: <response value="ACK" rawmode="true" />
+[008.861]: send ../mdm9607-sysfs.ubi, filesize=58589184
+........................................................
+[020.612]: upgrade progress 99% 69326512/69706580
+[020.612]: send finished
+[020.613]: <log value="Finished sector address 30464"/>
+[020.613]: <response value="ACK" rawmode="false" />
+[020.614]: <program PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" filename="..\rpm.mbn" num_partition_sectors="77" physical_partition_number="0" start_sector="12672"/>
+[020.614]: <log value="INSIDE HANDLE PROGRAM"/>
+[020.614]: <log value="start_sector 12672, last_sector_address 12749"/>
+[020.614]: <response value="ACK" rawmode="true" />
+[020.614]: send ../rpm.mbn, filesize=156880
+.
+[020.646]: upgrade progress 99% 69483392/69706580
+[020.646]: send finished
+[020.646]: <log value="Finished sector address 12672"/>
+[020.646]: <response value="ACK" rawmode="false" />
+[020.646]: <program PAGES_PER_BLOCK="64" SECTOR_SIZE_IN_BYTES="2048" filename="..\sbl1.mbn" num_partition_sectors="109" physical_partition_number="0" start_sector="0"/>
+[020.647]: <log value="INSIDE HANDLE PROGRAM"/>
+[020.647]: <log value="start_sector 0, last_sector_address 109"/>
+[020.647]: <response value="ACK" rawmode="true" />
+[020.647]: send ../sbl1.mbn, filesize=223188
+.
+[020.692]: upgrade progress 100% 69706580/69706580
+[020.692]: send finished
+[020.692]: <log value="Finished sector address 0"/>
+[020.692]: <response value="ACK" rawmode="false" />
+[020.692]: <power DelayInSeconds="10" value="reset" />
+[020.693]: <log value="Inside handlePower() - Requested POWER_RESET"/>
+[020.693]: <response value="ACK" />
+[021.694]: THE TOTAL DOWNLOAD TIME IS 19.392 s
+[021.694]: Upgrade module successfully.
+[021.694]: inf[0] ep_in -1/1024, errno = 108 (Cannot send after transport endpoint shutdown)
+[021.694]: qusb_noblock_read read=-1, errno: 108 (Cannot send after transport endpoint shutdown)
+[021.694]: qusb_noblock_read cur=0, min_size=1

@@ -1,5 +1,3 @@
-### UNTESTED YET
-
 # Stock firmware recovery for Quectel EG25-GC
 This repo contains all the firmware versions we have found for the Quectel EG25-G Modem.
 
